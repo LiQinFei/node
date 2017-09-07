@@ -131,7 +131,7 @@ router.post('/publish',async(ctx,next)=>{
 	var user_id = data.user_id
  	var  src = data.src
  	var dataNow = datas.getNowFormatDate()
-	console.log(title  +'/' +introduction +'/'+ content )
+	
 
 
 
